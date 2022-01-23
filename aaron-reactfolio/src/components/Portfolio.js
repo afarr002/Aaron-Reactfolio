@@ -1,5 +1,6 @@
 import React from "react";
-import { portfolio } from "../seed/seed";
+import { CodeIcon } from "@heroicons/react/solid";
+import { portfolio } from "../seed/portfolio";
 
 export default function Projects() {
   return (
