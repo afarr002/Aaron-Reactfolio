@@ -1,1 +1,1 @@
-export default Testimonials() {}
+export default function Testimonials() {}
