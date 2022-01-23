@@ -21,7 +21,7 @@ export default function More() {
             Some of my favorite hobbies!
           </h2>
           <p className="mb-8 leading-relaxed">
-            <ul className="list-none list-inside hover:list-outside hover:list-disc">
+            <ul className="list-none md:list-inside md:hover:list-outside md:hover:list-disc">
               <li>Coding! I've somehow fallen in love with functions.</li>
               <li>
                 Spending time with my dog Margot. (She approves all my code
@@ -82,8 +82,8 @@ export default function More() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
+            alt="aaron & margot"
+            src="./images/aaron&margot_headshot.jpg"
           />
         </div>
       </div>
