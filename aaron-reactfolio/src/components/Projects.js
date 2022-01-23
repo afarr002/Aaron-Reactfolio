@@ -1,3 +1,4 @@
+import React from "react";
 import { CodeIcon } from "@heroicons/react/solid";
 import { portfolio } from "../seed/portfolio";
 
