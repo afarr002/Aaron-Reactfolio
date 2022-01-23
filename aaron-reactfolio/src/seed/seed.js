@@ -1,4 +1,4 @@
-export const myWork = [
+export const projects = [
   {
     title: "",
     subtitle: "",
