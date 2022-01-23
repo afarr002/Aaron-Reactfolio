@@ -2,7 +2,7 @@ import React from "react";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { skills } from "../seed/skills";
 
-export default function Skills() {
+const Skills = () => {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
@@ -34,4 +34,6 @@ export default function Skills() {
       </div>
     </section>
   );
-}
+};
+
+export default Skills;

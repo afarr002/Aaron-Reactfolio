@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function More() {
+const More = () => {
   return (
     <section id="more">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -89,4 +89,6 @@ export default function More() {
       </div>
     </section>
   );
-}
+};
+
+export default More;

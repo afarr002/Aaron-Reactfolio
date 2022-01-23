@@ -2,7 +2,7 @@ import React from "react";
 import { CodeIcon } from "@heroicons/react/solid";
 import { portfolio } from "../seed/portfolio";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -45,4 +45,6 @@ export default function Projects() {
       </div>
     </section>
   );
-}
+};
+
+export default Portfolio;
