@@ -17,6 +17,7 @@ const App = () => {
       <main className="text-gray-400 bg-gray-900 body-font">
         <Switch>
           <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/more" component={More} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/skills" component={Skills} />
