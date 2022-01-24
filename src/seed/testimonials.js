@@ -16,7 +16,7 @@ export const testimonials = [
   {
     name: "Billy, Carter, and Sammy (Niece and Nephews)",
     quote:
-      "Uncle Aaron is our favorite PUNK - Professional Uncle No Kids! He's always hanging out with us, giving us sweets when Mom and Dad aren't looking, and making cool new things for us!",
+      "Uncle Aaron is our favorite uncle! He's always hanging out with us, giving us sweets when Mom and Dad aren't looking, and making cool new things for us!",
     image: "./images/aaron&friends.JPG",
     company: "Cute Unemployed Freeloaders",
   },
