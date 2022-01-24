@@ -8,10 +8,15 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/aaron-farrell-1a7101219/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedin color="white" size="100px" style={{ padding: "1%" }} />
         </a>
-        <a href="https://github.com/afarr002" target="_blank">
+        <a
+          href="https://github.com/afarr002"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub color="white" size="100px" style={{ padding: "1%" }} />
         </a>
       </nav>
