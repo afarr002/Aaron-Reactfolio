@@ -10,7 +10,7 @@ I wanted to practice building with React, so I decided to test the waters with a
 
 ## Link to Deployed
 
-N/A
+[Aaron React-folio](https://aaron-reactfolio.netlify.app/#/)
 
 ## License
 
