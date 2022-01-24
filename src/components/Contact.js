@@ -19,10 +19,10 @@ const Contact = () => {
       body: encode({ "form-name": "contact", name, email, message }),
     })
       .then(() => {
-        alert("Message Sent!");
         setName("");
         setEmail("");
         setMessage("");
+        alert("Message Sent!");
       })
       .catch((error) => {
         alert(`Something went wrong, message not sent!
