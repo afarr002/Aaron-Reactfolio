@@ -5,7 +5,7 @@ export const skills = [
 
   "CSS",
 
-  "HavaScript",
+  "JavaScript",
 
   "Third-Party APIs",
 
