@@ -17,13 +17,11 @@ const Contact = () => {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => {
-        setName("");
-        setEmail("");
-        setMessage("");
-        alert("Message Sent!");
-      })
+    });
+    setName("");
+    setEmail("");
+    setMessage("")
+      .then(() => alert("Message Sent!"))
       .catch((error) => {
         alert(`Something went wrong, message not sent!
         Please try again!`);
@@ -81,7 +79,7 @@ const Contact = () => {
             to reach out to me for any reason, please do!
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="{name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
