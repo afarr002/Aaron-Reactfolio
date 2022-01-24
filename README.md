@@ -4,7 +4,7 @@
 
 ## Description
 
-I wanted to practice building with React, so I decided to test the waters with a static React portfolio. This will act as my business card for the start of my development career, helping to showcase some of my skills, and style of building!
+I wanted to practice building with React, so I decided to test the waters with a static React portfolio. I've also never delpoed an application to Netlify before, so I wanted to take on that challenge as well with no mentor, just following the docs to see if I could figure it out! This will act as my business card for the start of my development career, helping to showcase some of my skills, and style of building!
 
 ---
 
