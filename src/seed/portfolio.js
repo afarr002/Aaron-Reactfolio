@@ -16,10 +16,10 @@ export const portfolio = [
     gitlink: "https://github.com/afarr002/OfflineEditor",
   },
   {
-    title: "Kick List",
-    description: "In progress - Coming Soon!",
-    image: "./images/aaron&margot_headshot.jpg",
-    link: "https://github.com/afarr002/kick-list",
+    title: "Kick-It Bucket List",
+    description: `How many times in your life do you think you've said "I really want to do that" about something, forgotten, just to repeat the process? Now, keep track of the things you really want to do in life with the Kick-It Bucket List. Set priorities to things you want to do, edit them, and then delete them as you check them off the list!`,
+    image: "./images/kick-it-screenshot.png",
+    link: "https://kick-list002.herokuapp.com/",
     gitlink: "https://github.com/afarr002/kick-list",
   },
   {
