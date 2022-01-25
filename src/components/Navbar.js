@@ -20,10 +20,15 @@ const Navbar = () => {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
-          <a href="./resume/aaron.resume.pdf" target="_blank" download>
-            Resume <span className="text-sm">(Download)</span>
-          </a>
         </nav>
+        <a
+          href="./resume/aaron.resume.pdf"
+          target="_blank"
+          download
+          className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
+        >
+          Resume <span className="text-xs">(Download)</span>
+        </a>
         <a
           href="#contact"
           className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
