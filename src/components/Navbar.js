@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRightIcon } from "@heroicons/react/solid";
+import { ArrowRightIcon, ArrowDownIcon } from "@heroicons/react/solid";
 
 const Navbar = () => {
   return (
@@ -28,13 +28,13 @@ const Navbar = () => {
           className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
         >
           Resume <span className="text-xs">(Download)</span>
+          <ArrowDownIcon className="w-4 h-4 ml-1" />
         </a>
         <a
           href="#contact"
-          className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
+          className="inline-flex items-center md:border-l md:border-gray-700 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
         >
-          Contact Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
+          Contact Me <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
