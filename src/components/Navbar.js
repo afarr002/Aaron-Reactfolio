@@ -28,6 +28,9 @@ const Navbar = () => {
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
+        <a href="./resume/aaron.resume.pdf" target="_blank" download>
+          Resume <span className="text-sm">(Download)</span>
+        </a>
       </div>
     </header>
   );
