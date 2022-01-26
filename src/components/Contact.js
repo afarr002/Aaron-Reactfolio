@@ -11,8 +11,17 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  // const emailValidation = (email) => {
+  //   const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  //   if (email?.match(regex)) {
+  //     return true;
+  //   }
+  // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    /* if (emailValidation === true) { */
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -29,6 +38,9 @@ const Contact = () => {
         Please try again!`);
         console.log(error);
       });
+    /* } else {
+      alert("Please return valid email");
+    } */
   };
 
   return (

@@ -22,7 +22,7 @@ const Navbar = () => {
           </a>
         </nav>
         <a
-          href="./resume/aaron.resume.pdf"
+          href="./resume/Aaron_Farrell_Resume.pdf"
           target="_blank"
           download
           className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
