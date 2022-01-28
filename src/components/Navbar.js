@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRightIcon, ArrowDownIcon } from "@heroicons/react/solid";
+import { ArrowRightIcon, DownloadIcon } from "@heroicons/react/solid";
 
 const Navbar = () => {
   return (
@@ -25,16 +25,16 @@ const Navbar = () => {
           href="./resume/Aaron_Farrell_Resume.pdf"
           target="_blank"
           download
-          className="inline-flex items-center border-0 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
+          className="inline-flex items-center md:border-r md:border-gray-700 py-1 px-3 text-darkneutral hover:bg-gray-900 hover:border-gray-900 hover:text-darkorange hover:rounded mt-4 md:mt-0"
         >
-          Resume <span className="text-xs">(Download)</span>
-          <ArrowDownIcon className="w-4 h-4 ml-1" />
+          Resume
+          <DownloadIcon className="w-4 h-4 ml-1 text-darkorange" />
         </a>
         <a
           href="#contact"
-          className="inline-flex items-center md:border-l md:border-gray-700 py-1 px-3 text-darkneutral hover:bg-darkorange rounded hover:text-lightneutral mt-4 md:mt-0"
+          className="inline-flex items-center md:border-l md:border-gray-700 py-1 px-3 text-darkneutral hover:bg-gray-900 hover:rounded hover:border-gray-900 hover:text-darkorange mt-4 md:mt-0"
         >
-          Contact Me <ArrowRightIcon className="w-4 h-4 ml-1" />
+          Contact Me <ArrowRightIcon className="w-4 h-4 ml-1 text-darkorange" />
         </a>
       </div>
     </header>
