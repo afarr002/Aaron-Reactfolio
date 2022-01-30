@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         darkorange: "rgb(234 88 12)",
         lightorange: "rgb(249 115 22)",
+        red: "#ff0000",
         darkneutral: "rgb(115 115 115)",
         lightneutral: "rgb(212 212 212)",
         black: "rgb(0 0 0)",

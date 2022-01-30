@@ -8,8 +8,9 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Aaron!
             <br />
-            <p className="invisible hover:visible">
-              &&I fell in love with coding.
+            <p className="opacity-0 hover:opacity-100">
+              &&I fell in <span className="text-darkorange">LOVE</span> with
+              coding.
             </p>
           </h1>
           <p className="mb-8 leading-relaxed">
