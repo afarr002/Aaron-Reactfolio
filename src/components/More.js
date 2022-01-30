@@ -36,7 +36,7 @@ const More = () => {
             problems, little or big!
           </p>
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            What did I learn during quarentine?
+            What did I learn during quarantine?
           </h2>
           <p className="mb-8 leading-relaxed">
             I used the initial lock downs to learn about the hobbies I was
