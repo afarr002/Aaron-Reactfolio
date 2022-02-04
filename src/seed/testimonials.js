@@ -1,5 +1,12 @@
 export const testimonials = [
   {
+    name: "64th President of the United States",
+    quote:
+      "We are so thankful in the year 2040 that Aaron started down this journey as a software engineer during the 2020 pandemic, as it was imperative to establish communications to the aliens that visited in 2032 (or something like that...probably.)",
+    image: "./images/whitehouse.jpg",
+    company: "United States Government",
+  },
+  {
     name: "Margot (Furry Best Friend && Final Code Editor)",
     quote:
       "Aaron is bessfren, gives lots of snaccos. Sometimes errurs in code, but I find and fix.",
@@ -19,12 +26,5 @@ export const testimonials = [
       "Uncle Aaron is our favorite uncle! He's always hanging out with us, giving us sweets when Mom and Dad aren't looking, and making cool new things for us!",
     image: "./images/aaron&friends.JPG",
     company: "Cute Unemployed Freeloaders",
-  },
-  {
-    name: "64th President of the United States",
-    quote:
-      "We are so thankful in the year 2040 that Aaron started down this journey as a software engineer during the 2020 pandemic, as it was imperative to establish communications to the aliens that visited in 2032 (or something like that...probably.)",
-    image: "./images/whitehouse.jpg",
-    company: "United States Government",
   },
 ];
