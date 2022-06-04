@@ -24,9 +24,9 @@ const App = () => {
           <Route exact path="/testimonials" component={Testimonials} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-      </main>
 
-      <Footer />
+        <Footer />
+      </main>
     </Router>
   );
 };
