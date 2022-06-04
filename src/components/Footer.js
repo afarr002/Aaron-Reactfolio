@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 md:sticky bottom-0 z-10">
+    <footer className="bg-gray-800 sticky bottom-0 z-10">
       <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-around">
         <a
           href="https://www.linkedin.com/in/aaron-farrell-1a7101219/"

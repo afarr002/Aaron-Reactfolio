@@ -14,7 +14,7 @@ const App = () => {
     <Router basename="/">
       <Navbar />
 
-      <main className="text-gray-400 bg-gray-900 body-font">
+      <main className="text-gray-400 bg-gray-900 body-font h-screen">
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
