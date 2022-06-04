@@ -93,7 +93,7 @@ const Contact = () => {
             to reach out to me for any reason, please do!
           </p>
           <div className="relative mb-4">
-            <label htmlFor="{name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
