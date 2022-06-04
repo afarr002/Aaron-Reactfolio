@@ -29,7 +29,7 @@ const Projects = () => {
             >
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt={title}
                   className="absolute inset-0 w-full h-full object-contain object-center"
                   src={image}
                 />
